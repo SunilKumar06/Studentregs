@@ -1,0 +1,6 @@
+Student\example\StudentDB\Student\Student.class
+Student\example\StudentDB\Student\StudentService.class
+Student\example\StudentDB\StudentDbApplication.class
+Student\example\StudentDB\Student\StudentConfig.class
+Student\example\StudentDB\Student\StudentRepository.class
+Student\example\StudentDB\Student\StudentController.class
