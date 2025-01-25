@@ -31,7 +31,7 @@ public class StudentController {
    }
 
    // Take a request body from client and map it to Student
-   @PostMapping
+    @PostMapping
     public void registernewStudent(@RequestBody Student student)
    {
        studentService.addnewStudent(student);
@@ -45,7 +45,7 @@ public class StudentController {
        logger.info("Student Id: {} Deleted Successfully", studentId);
    }
 
-   @PutMapping(path = "{studentId}")
+    @PutMapping(path = "{studentId}")
     public void updateStudent(@PathVariable ("studentId") Long studentId,
                               @RequestParam (required = false) String name, @RequestParam(required = false) String email)
    {
